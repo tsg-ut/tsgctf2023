@@ -1,0 +1,11 @@
+{
+  "name": "solver",
+  "version": "0.1.0",
+  "scripts": {
+    "solve": "node solve.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "localtunnel": "^2.0.2"
+  }
+}

@@ -1,0 +1,20 @@
+#########################   SIX 
+#6HX   X     X    X    X#   I S 
+###  X  X  X   X      * #   WIN 
+  #  X     XO X     X   #   ####
+  #X    X XX    X ###########  #
+  #   XX         H     O    XXX#
+  # *            H          X*X#
+  ################ O       O####
+  #          # # #          #   
+  #*     #   O # #   O      #   
+###X         #   #          #   
+#   XXXX###################O#   
+#      HH O O O O O O O XXXH#   
+#####** #O O O O O O O O#####    
+    #   # O O O O O O O #       
+    #####################  O    
+SI@O#6!WNX<>v^*HSI@O#6!WNX<>v^*H <- push / stop rule flags
+SI@O#6!WNX<>v^*HSI@O#6!WNX<>v^*H <- you  / sink rule flags
+SI@O#6!WNX<>v^*HSI@O#6!WNX<>v^*H <- open / shut rule flags
+SI@O#6!WNX<>v^*H                 <- win rule flags

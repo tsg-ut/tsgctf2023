@@ -1,0 +1,6 @@
+__pycache__
+node_modules
+dist/app/absurdres/static/images/*
+!dist/app/absurdres/static/images/.gitkeep
+dist/app/absurdres/static/posts/*
+!dist/app/absurdres/static/posts/.gitkeep

@@ -1,0 +1,33 @@
+version: '3'
+services:
+  # We cannot use `app` as a hostname because of HSTS configuration of puppeteer.
+  server:
+    restart: always
+    build: ./dist/app
+    volumes:
+      - ./dist/app:/app
+    working_dir: /app
+    depends_on:
+      - mongo
+    ports:
+      - 55416:55416
+    environment:
+      - MONGO_HOST=mongo
+  mongo:
+    restart: always
+    image: mongo
+  redis:
+    image: redis
+    restart: always
+  worker:
+    build: ./dist/crawler/worker
+    depends_on:
+      - redis
+    restart: always
+    environment:
+      - FLAG=TSGCTF{1girl, hacker, in front of computer, hooded, in dark room, table, sitting, keyboard, 8k wallpaper, highly detailed, absurdres}
+  reporter:
+    build: ./dist/crawler/reporter
+    depends_on:
+      - redis
+    restart: always

@@ -1,0 +1,13 @@
+version: "3"
+services:
+  web:
+    restart: always
+    image: nginx
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro
+    ports:
+      - 8080:80
+    environment:
+      - FLAG=TSGCTF{the_blue_bird_is_in_your_cage_so_stay_home_and_dont_miss_it!}
+    logging:
+      driver: gcplogs

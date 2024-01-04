@@ -1,0 +1,15 @@
+# no need for server, just test environment
+version: "3"
+services:
+  workspace:
+    platform: linux/amd64
+    build: .
+    working_dir: /home/user
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - seccomp:unconfined
+    volumes:
+      - type: bind
+        source: "."
+        target: "/home/user"

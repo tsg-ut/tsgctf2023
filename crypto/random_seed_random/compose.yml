@@ -1,0 +1,10 @@
+version: "3"
+services:
+  server:
+    restart: always
+    build: ./dist
+    working_dir: /home/user
+    environment:
+      FLAG: TSGCTF{D4NCE_R0BOT_D4NCE_8caa8d05ff7f}
+    ports:
+      - "10960:10960"

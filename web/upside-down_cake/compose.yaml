@@ -1,0 +1,20 @@
+version: "3"
+services:
+  app:
+    restart: always
+    image: node:20-slim
+    command: npm start
+    volumes:
+      - ./dist:/code
+    environment:
+      - FLAG=TSGCTF{pilchards_are_gazing_stars_which_are_very_far_away}
+    working_dir: /code
+  nginx:
+    restart: always
+    image: nginx
+    volumes:
+      - ./dist/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - app
+    ports:
+      - 12349:12349

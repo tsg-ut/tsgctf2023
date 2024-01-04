@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    ctf:
+        restart: always
+        build:
+            context: .
+            dockerfile: ./build/Dockerfile
+        read_only: true
+        ports:
+            - '40001:40001'

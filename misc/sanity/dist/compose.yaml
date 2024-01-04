@@ -1,0 +1,13 @@
+version: "3"
+services:
+  web:
+    restart: always
+    image: nginx
+    volumes:
+      - .:/usr/share/nginx/html:ro
+    ports:
+      - 38080:80
+    environment:
+      - FLAG=TSGCTF{*** REDACTED ***}
+    logging:
+      driver: gcplogs

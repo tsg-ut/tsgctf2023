@@ -1,0 +1,23 @@
+version: "2"
+
+services:
+  tasker:
+    image: strm/tasker:1.0.1
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    environment:
+      configuration: |
+        schedule:
+          - every: 10 minutes
+            task: restart-image
+        tasks:
+          docker:
+            - name: restart-image
+              image: docker:latest
+              volumes:
+                - "/var/run/docker.sock:/var/run/docker.sock"
+                - "/home/_shared/tsgctf4/web/yatter:/code"
+              script:
+                - cd /code
+                - docker compose down
+                - docker compose up -d

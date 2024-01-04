@@ -1,0 +1,28 @@
+services:
+  server:
+    build: ./
+    restart: always
+    init: true
+    depends_on:
+      - redis
+    environment:
+      - REDIS_URL=redis://redis/0
+      - REDIS_REPORTER_URL=redis://redis/1
+      - NODE_ENV=production
+    ports:
+      - 37291:37291
+  redis:
+    restart: always
+    init: true
+    image: redis:7-alpine
+  crawler:
+    build: ./dist/crawler
+    restart: always
+    depends_on:
+      - redis
+    init: true
+    environment:
+      - FLAG=TSGCTF{u_r_j5fuck_m4573r}
+      - APP_DOMAIN=server
+      - APP_PORT=37291
+      - REDIS_REPORTER_URL=redis://redis/1

@@ -1,0 +1,23 @@
+version: "3"
+services:
+#  workspace:
+#    platform: linux/amd64
+#    build: .
+#    working_dir: /home/user
+#    volumes:
+#      - type: bind
+#        source: "."
+#        target: "/home/user"
+  server:
+    platform: linux/amd64
+    restart: always
+    build: ./dist
+    working_dir: /home/user
+    environment:
+      FLAG: TSGCTF{IS_TEND_TO_BE_BABA_IS_YOU_CTF?}
+      # TCPDUMP_ENABLE: "true"
+      CTF_PORT: 10906
+    ports:
+      - "10906:10906"
+    # volumes:
+    #   - ./tcpdump/:/var/lib/tcpdump

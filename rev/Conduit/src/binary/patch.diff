@@ -1,0 +1,21 @@
+--- /usr/local/go/src/regexp/regexp.go	2023-01-09 22:38:06.000000000 +0000
++++ regexp.go	2023-10-23 15:06:36.983219663 +0000
+@@ -103,6 +103,18 @@
+ 	longest bool // whether regexp prefers leftmost-longest match
+ }
+ 
++func (re *Regexp) SetProg(prog syntax.Prog) {
++	re.onepass = nil
++	re.prog = &prog
++	re.expr = ""
++	re.prefix = ""
++	re.minInputLen = 0
++	re.mpool = 3
++	re.subexpNames = []string{}
++	re.prefixBytes = []byte{}
++}
++
++
+ // String returns the source text used to compile the regular expression.
+ func (re *Regexp) String() string {
+ 	return re.expr

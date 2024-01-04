@@ -1,0 +1,17 @@
+{
+  "name": "solver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "solver.ts",
+  "author": "",
+  "dependencies": {
+    "@types/express": "^4.17.20",
+    "@types/localtunnel": "^2.0.3",
+    "@types/node": "^20.8.8",
+    "axios": "^1.5.1",
+    "express": "^4.18.2",
+    "localtunnel": "^2.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

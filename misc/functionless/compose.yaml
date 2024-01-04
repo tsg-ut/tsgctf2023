@@ -1,0 +1,10 @@
+version: "3"
+services:
+  app:
+    restart: always
+    build:
+      context: .
+      dockerfile: ./src/Dockerfile
+    read_only: true
+    ports:
+      - 30002:30002
