@@ -2,36 +2,37 @@
 
 ## Challenges List
 
-| **Name**                                                        | **Genre** | **Difficulty**    | **Author**    
-| --------------------------------------------------------------- | --------- | ----------------- | ------------- 
-| [Yatter](web/yatter)                                            | web       | med-hard          | @n4o847       
-| [Brainfxxk Challenge](web/brainfxxk_challenge)                  | web       | med               | @fabon-f      
-| [#DANCE](web/%23DANCE)                                          | web       | med               | @jiei-univ    
-| [absurdres](web/absurdres)                                      | web       | med-hard          | @hakatashi    
-| [Upside-down cake](web/upside-down_cake)                        | web       | beginner easy     | @hakatashi    
-| [BABA PWN GAME](pwn/baba_pwn_game)                              | pwn       | beginner med      | @m1kit        
-| [converter](pwn/converter)                                      | pwn       | beginner easy-med | @dai          
-| [tinyfs](pwn/tinyfs)                                            | pwn       | easy-med          | @caphosra     
-| [sloader](pwn/sloader)                                          | pwn       | easy              | @moratorium08 
-| [bypy](pwn/bypy)                                                | pwn       | hard              | @moratorium08 
-| [ghost](pwn/ghost)                                              | pwn       | med               | @moratorium08 
-| [beginners_rev_2023](rev/beginners_rev_2023)                    | rev       | beginner          | @iwashiira    
-| [T the weakest](rev/t_the_weakest)                              | rev       | easy              | @m1kit        
-| [mimetic_cycle](rev/mimetic_cycle)                              | rev       | med-hard          | @iwashiira    
-| [Natural Flag Processing 2](rev/natural_flag_processing_2)      | rev       | hard              | @dai          
-| [Conduit](rev/Conduit)                                          | rev       | med               | @moratorium08 
-| [Frictionless](rev/frictionless)                                | rev       | med-hard          | @satos        
-| [Nets](rev/nets)                                                | rev       | med               | @satos        
-| [Complicated Function](crypto/complicated_function/)            | crypto    | beginner easy     | @settyan117   
-| [Unique Flag](crypto/unique_flag/)                              | crypto    | easy              | @naan4UGen    
-| [RANDOM SEED RANDOM](crypto/random_seed_random)                 | crypto    | med               | @m1kit        
-| [streamer](crypto/streamer)                                     | crypto    | easy              | @jiei-univ    
-| [Delta Force](crypto/delta_force)                               | crypto    | med-hard          | @JP3BGY       
-| [Learning with Exploitation](crypto/learning_with_exploitation) | crypto    | med               | @hakatashi    
-| [Functionless](misc/functionless)                               | misc      | med               | @n4o847       
-| [Graffiti in the Fog](misc/graffiti_in_the_fog)                 | misc      | easy              | @dai          
-| [Secret Sequence](misc/secret_sequence)                         | misc      | easy-med          | @jiei-univ    
-| [Q??ode](misc/q__ode)                                           | misc      | med               | @m1kit        
+| **Name**                                                        | **Genre** | **Difficulty**    | **Author**    | **solves** |
+| --------------------------------------------------------------- | --------- | ----------------- | ------------- | ---------- |
+| [Yatter](web/yatter)                                            | web       | med-hard          | @n4o847       | 0
+| [Brainfxxk Challenge](web/brainfxxk_challenge)                  | web       | med               | @fabon-f      | 11
+| [#DANCE](web/%23DANCE)                                          | web       | med               | @jiei-univ    | 17
+| [absurdres](web/absurdres)                                      | web       | med-hard          | @hakatashi    | 2
+| [Upside-down cake](web/upside-down_cake)                        | web       | beginner easy     | @hakatashi    | 127
+| [BABA PWN GAME](pwn/baba_pwn_game)                              | pwn       | beginner med      | @m1kit        | 9
+| [converter](pwn/converter)                                      | pwn       | beginner easy-med | @dai          | 78
+| [converter2](pwn/converter)                                     | pwn       | beginner easy-med | @dai          | 26
+| [tinyfs](pwn/tinyfs)                                            | pwn       | easy-med          | @caphosra     | 14
+| [sloader](pwn/sloader)                                          | pwn       | easy              | @moratorium08 | 39
+| [bypy](pwn/bypy)                                                | pwn       | hard              | @moratorium08 | 4
+| [ghost](pwn/ghost)                                              | pwn       | med               | @moratorium08 | 3
+| [beginners_rev_2023](rev/beginners_rev_2023)                    | rev       | beginner          | @iwashiira    | 24
+| [T the weakest](rev/t_the_weakest)                              | rev       | easy              | @m1kit        | 18
+| [mimetic_cycle](rev/mimetic_cycle)                              | rev       | med-hard          | @iwashiira    | 1
+| [Natural Flag Processing 2](rev/natural_flag_processing_2)      | rev       | hard              | @dai          | 2
+| [Conduit](rev/Conduit)                                          | rev       | med               | @moratorium08 | 2
+| [Frictionless](rev/frictionless)                                | rev       | med-hard          | @satos        | 0
+| [Nets](rev/nets)                                                | rev       | med               | @satos        | 0
+| [Complicated Function](crypto/complicated_function/)            | crypto    | beginner easy     | @settyan117   | 70
+| [Unique Flag](crypto/unique_flag/)                              | crypto    | easy              | @naan4UGen    | 82
+| [RANDOM SEED RANDOM](crypto/random_seed_random)                 | crypto    | med               | @m1kit        | 17
+| [streamer](crypto/streamer)                                     | crypto    | easy              | @jiei-univ    | 60
+| [Delta Force](crypto/delta_force)                               | crypto    | med-hard          | @JP3BGY       | 6
+| [Learning with Exploitation](crypto/learning_with_exploitation) | crypto    | med               | @hakatashi    | 12
+| [Functionless](misc/functionless)                               | misc      | med               | @n4o847       | 5
+| [Graffiti in the Fog](misc/graffiti_in_the_fog)                 | misc      | easy              | @dai          | 5
+| [Secret Sequence](misc/secret_sequence)                         | misc      | easy-med          | @jiei-univ    | 3
+| [Q??ode](misc/q__ode)                                           | misc      | med               | @m1kit        | 1
 
 ## Result
 
